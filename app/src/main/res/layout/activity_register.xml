@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg5"
+    tools:context="com.inovaitsys.inozest.LoginActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e7080707"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:button="@drawable/selector_radio"
+                android:paddingLeft="30dp"
+                android:text="Radio 1" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="@drawable/selector_radio"
+                android:paddingLeft="30dp"
+                android:text="Radio 2" />
+        </RadioGroup>
+
+        <!--<FrameLayout-->
+            <!--android:layout_marginTop="200dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical"-->
+            <!--android:id="@+id/frameLayout">-->
+
+            <!--// This is the imageview which overlay the first LinearLayout-->
+
+            <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+
+            <!--&lt;!&ndash;android:src="@drawable/colored_star"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:adjustViewBounds="true"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_gravity="center"/>&ndash;&gt;-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignEnd="@+id/imageView"-->
+                <!--android:layout_alignTop="@+id/frameLayout"-->
+                <!--android:layout_marginTop="162dp"-->
+                <!--android:orientation="vertical">-->
+
+                <!--// this is your first layout to put the big image-->
+                <!--// use src or backgroud image as per requirement-->
+
+
+
+
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:id="@+id/linearLayout"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="250dp"-->
+                <!--android:layout_alignParentBottom="true"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:layout_marginLeft="30dp"-->
+                <!--android:layout_marginRight="30dp"-->
+                <!--android:orientation="vertical"-->
+                <!--android:weightSum="1">-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:layout_marginTop="30dp"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:padding="10dp">-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="20dp"-->
+                        <!--android:layout_height="20dp"-->
+                        <!--android:layout_marginLeft="10dp"-->
+                        <!--android:layout_marginTop="8dp"-->
+                        <!--android:src="@drawable/ic_smartphone" />-->
+
+                    <!--<EditText-->
+                        <!--android:background="@color/transparent_red"-->
+                        <!--android:id="@+id/mobileEditText"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="35dp"-->
+                        <!--android:layout_gravity="center_horizontal"-->
+                        <!--android:layout_marginBottom="15dp"-->
+                        <!--android:layout_marginLeft="10dp"-->
+                        <!--android:layout_marginRight="30dp"-->
+                        <!--android:hint="Mobile Number"-->
+                        <!--android:inputType="number"-->
+                        <!--android:padding="5dp"-->
+                        <!--android:paddingBottom="3dp"-->
+                        <!--android:singleLine="true"-->
+                        <!--android:textColor="@color/white"-->
+                        <!--android:textColorHint="@color/hintColor"-->
+                        <!--android:textSize="14sp" />-->
+
+                <!--</LinearLayout>-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:layout_marginTop="5dp"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:padding="10dp">-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="20dp"-->
+                        <!--android:layout_height="20dp"-->
+                        <!--android:layout_marginLeft="10dp"-->
+                        <!--android:layout_marginTop="8dp"-->
+                        <!--android:src="@drawable/ic_user" />-->
+
+                    <!--<EditText-->
+                        <!--android:background="@color/transparent_red"-->
+                        <!--android:id="@+id/userNameEditText"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="35dp"-->
+                        <!--android:layout_gravity="center_horizontal"-->
+                        <!--android:layout_marginBottom="15dp"-->
+                        <!--android:layout_marginLeft="10dp"-->
+                        <!--android:layout_marginRight="30dp"-->
+                        <!--android:hint="User Name"-->
+                        <!--android:inputType="number"-->
+                        <!--android:padding="5dp"-->
+                        <!--android:paddingBottom="3dp"-->
+                        <!--android:singleLine="true"-->
+                        <!--android:textColor="@color/white"-->
+                        <!--android:textColorHint="@color/hintColor"-->
+                        <!--android:textSize="14sp" />-->
+
+                <!--</LinearLayout>-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:paddingBottom="1dp"-->
+                    <!--android:paddingLeft="15dp"-->
+                    <!--android:paddingRight="10dp"-->
+                    <!--android:paddingTop="10dp">-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="18dp"-->
+                        <!--android:layout_height="20dp"-->
+                        <!--android:layout_marginLeft="14dp"-->
+                        <!--android:layout_marginTop="8dp"-->
+                        <!--android:src="@drawable/ic_key" />-->
+
+                    <!--<com.scottyab.showhidepasswordedittext.ShowHidePasswordEditText-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="35dp"-->
+                        <!--android:id="@+id/simplePassword"-->
+                        <!--android:background="@color/transparent_red"-->
+                        <!--android:textColorHint="@color/hintColor"-->
+                        <!--android:layout_marginBottom="15dp"-->
+                        <!--android:layout_marginRight="30dp"-->
+                        <!--app:drawable_show="@drawable/eye"-->
+                        <!--app:drawable_hide="@drawable/eye3"-->
+                        <!--android:layout_marginLeft="9dp"-->
+                        <!--android:hint="Password"-->
+                        <!--android:textSize="14sp"-->
+                        <!--/>-->
+
+                    <!--&lt;!&ndash;<EditText&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:background="@color/transparent_red"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:id="@+id/passwordEditText"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_height="35dp"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_gravity="center_horizontal"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_marginBottom="15dp"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_marginLeft="9dp"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_marginRight="30dp"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:fontFamily="sans-serif"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:hint="Password"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:inputType="textPassword"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:padding="5dp"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:paddingBottom="3dp"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:singleLine="true"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:textColor="@color/white"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:textColorHint="@color/hintColor"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:textSize="14sp" />&ndash;&gt;-->
+
+                <!--</LinearLayout>-->
+
+
+            <!--</LinearLayout>-->
+
+        <!--</FrameLayout>-->
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="71dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/button_selector"
+            android:text="Register"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

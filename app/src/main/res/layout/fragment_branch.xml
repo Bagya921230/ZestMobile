@@ -1,0 +1,156 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_layout_frsgment"
+    android:background="@color/white"
+    tools:context="com.inovaitsys.inozest.Fragments.BranchListFragment">
+
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:id="@+id/toolbar"-->
+        <!--android:gravity="center"-->
+        <!--android:theme="@style/MyToolBar"-->
+        <!--app:titleTextColor="@color/transparent_black"-->
+        <!--app:titleTextAppearance="@style/Toolbar.TitleText"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="?attr/actionBarSize"-->
+        <!--android:background="?attr/colorPrimary"-->
+        <!--/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:baselineAligned="false">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <fragment
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:singleLine="true"
+                    android:id="@+id/address"
+                    android:text="jfkdjfhsdjf"
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/map"
+                    android:layout_gravity="bottom"
+                    android:background="@color/trans_black"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+            </fragment>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/reviewLayout"
+            android:background="@drawable/branchg"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ScrollView
+                android:fillViewport="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    android:background="@color/transparent_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:baselineAligned="false">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.6">
+
+                        <Button
+                            android:visibility="invisible"
+                            android:id="@+id/button3"
+                            android:textSize="12sp"
+                            android:background="@drawable/buttonshape"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:text="Add review" />
+
+                        <TextView
+                            android:text="Available Services"
+                            android:textSize="15sp"
+                            android:textColor="@color/font_grey"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <LinearLayout
+                            android:id="@+id/listContainer"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.4">
+
+
+                        <Button
+                            android:id="@+id/addReviewBtn"
+                            android:textSize="14sp"
+                            android:background="@drawable/buttonshape"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:text="Add review" />
+
+                        <TextView
+                            android:text="Open Days"
+                            android:textSize="15sp"
+                            android:textColor="@color/font_grey"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <LinearLayout
+                            android:id="@+id/listContainer1"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

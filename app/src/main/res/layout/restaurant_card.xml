@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="8dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:layout_marginBottom="1dp"
+    android:background="@drawable/shadow_112136"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:weightSum="1">
+    <LinearLayout
+        android:background="@drawable/shadow_112136"
+        android:layout_marginLeft="4dp"
+        android:orientation="vertical"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:id="@+id/linearLayout4">
+
+        <ImageView
+            android:layout_margin="6dp"
+            android:layout_width="fill_parent"
+            android:scaleType="fitXY"
+            android:layout_height="fill_parent"
+            android:id="@+id/subs_imageview" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:paddingTop="4dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/linearLayout4">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/subs_res_name"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="3dp"
+                android:text="Restaurant Name"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/res_details"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="3dp"
+                android:text="Makandana Rd, Piliyandala, Sri Lanka"
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/res_contact"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="3dp"
+                android:text="Contact No: +9471774888"
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <!--<TextView-->
+        <!--android:textStyle="bold"-->
+        <!--android:textSize="14dp"-->
+        <!--android:textColor="@color/colorAccent"-->
+        <!--android:textAlignment="center"-->
+        <!--android:layout_marginLeft="235dp"-->
+        <!--android:layout_marginRight="3dp"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:padding="3dp"-->
+        <!--android:layout_height="20dp"-->
+        <!--android:text="UNSUBSCRIBE"-->
+        <!--android:id="@+id/buttonUnsubscribe"-->
+        <!--android:layout_marginBottom="10dp"-->
+        <!--android:layout_alignParentBottom="true" />-->
+
+
+</RelativeLayout>

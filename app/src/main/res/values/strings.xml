@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">InoZest</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="processing">Processing</string>
+    <string name="branches">Branches</string>
+    <string name="address_book">Address Book</string>
+    <string name="reset_your_password">We have sent a PIN to your mobile. \nPlease use the PIN to reset your password</string>
+
+    <!--Preference Strings-->
+    <string name="have_permission">HAVE_PERMISSION</string>
+    <string name="cancel">CANCEL</string>
+    <string name="submit">SUBMIT</string>
+    <string name="_0_stars">0.0 stars</string>
+</resources>
